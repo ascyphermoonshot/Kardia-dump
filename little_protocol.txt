@@ -1,0 +1,644 @@
+No.     Time           Source                Destination           Protocol Length Info
+  13704 31522.476015   controller            host                  HCI_EVT  34     Rcvd LE Meta (LE Enhanced Connection Complete)
+
+Frame 13704: 34 bytes on wire (272 bits), 34 bytes captured (272 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Event - LE Meta
+
+0000  04 3e 1f 0a 00 00 02 00 01 8c 8e 92 58 18 ee 00   .>..........X...
+0010  00 00 00 00 00 00 00 00 00 00 00 27 00 00 00 f4   ...........'....
+0020  01 00                                             ..
+
+No.     Time           Source                Destination           Protocol Length Info
+  13728 31522.569742   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) SMP      11     Rcvd Security Request: AuthReq: Bonding
+
+Frame 13728: 11 bytes on wire (88 bits), 11 bytes captured (88 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Security Manager Protocol
+
+0000  02 00 22 06 00 02 00 06 00 0b 01                  .."........
+
+No.     Time           Source                Destination           Protocol Length Info
+  13729 31522.573463   host                  controller            HCI_CMD  32     Sent LE Start Encryption
+
+Frame 13729: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Command - LE Start Encryption
+
+0000  01 19 20 1c 00 02 82 01 58 12 62 7c 25 24 2b 50   .. .....X.b|%$+P
+0010  bf 21 33 7f d0 f9 75 45 b9 f1 73 08 53 f2 6f 5c   .!3...uE..s.S.o\
+
+No.     Time           Source                Destination           Protocol Length Info
+  13730 31522.574437   controller            host                  HCI_EVT  7      Rcvd Command Status (LE Start Encryption)
+
+Frame 13730: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Event - Command Status
+
+0000  04 0f 04 00 01 19 20                              ...... 
+
+No.     Time           Source                Destination           Protocol Length Info
+  13731 31522.579421   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Exchange MTU Response, Server Rx MTU: 517
+
+Frame 13731: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 07 00 03 00 04 00 03 05 02               ............
+
+No.     Time           Source                Destination           Protocol Length Info
+  13735 31522.657984   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0026 (Unknown)
+
+Frame 13735: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 07 00 03 00 04 00 0a 26 00               ..........&.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13736 31522.667005   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) L2CAP    21     Rcvd Connection Parameter Update Request
+
+Frame 13736: 21 bytes on wire (168 bits), 21 bytes captured (168 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+
+0000  02 00 22 10 00 0c 00 05 00 12 03 08 00 06 00 18   ..".............
+0010  00 00 00 90 01                                    .....
+
+No.     Time           Source                Destination           Protocol Length Info
+  13737 31522.668143   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) L2CAP    15     Sent Connection Parameter Update Response (Accepted)
+
+Frame 13737: 15 bytes on wire (120 bits), 15 bytes captured (120 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+
+0000  02 00 02 0a 00 06 00 05 00 13 03 02 00 00 00      ...............
+
+No.     Time           Source                Destination           Protocol Length Info
+  13743 31523.106629   controller            host                  HCI_EVT  7      Rcvd Encryption Change
+
+Frame 13743: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Event - Encryption Change
+
+0000  04 08 04 00 00 02 01                              .......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13747 31523.301292   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      11     Rcvd Read Response, Handle: 0x0026 (Unknown)
+
+Frame 13747: 11 bytes on wire (88 bits), 11 bytes captured (88 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 06 00 02 00 04 00 0b 58                  ..".......X
+
+No.     Time           Source                Destination           Protocol Length Info
+  13748 31523.303946   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      16     Sent Read By Type Request, Server Supported Features, Handles: 0x0001..0xffff
+
+Frame 13748: 16 bytes on wire (128 bits), 16 bytes captured (128 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 0b 00 07 00 04 00 08 01 00 ff ff 3a 2b   ..............:+
+
+No.     Time           Source                Destination           Protocol Length Info
+  13750 31523.398404   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      14     Rcvd Error Response - Attribute Not Found, Handle: 0x0001 (Unknown)
+
+Frame 13750: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 09 00 05 00 04 00 01 08 01 00 0a         .."...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  13751 31523.399441   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0027 (Unknown)
+
+Frame 13751: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 09 00 05 00 04 00 12 27 00 01 00         ..........'...
+
+No.     Time           Source                Destination           Protocol Length Info
+  13754 31523.477059   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0027 (Unknown)
+
+Frame 13754: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13755 31523.702830   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0011 (Unknown)
+
+Frame 13755: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 09 00 05 00 04 00 12 11 00 02 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+  13757 31523.737597   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0011 (Unknown)
+
+Frame 13757: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13758 31523.805476   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      32     Sent Write Request, Handle: 0x0010 (Unknown)
+
+Frame 13758: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 1b 00 17 00 04 00 12 10 00 4d 31 20 4b   ............M1 K
+0010  61 34 35 37 32 30 66 63 61 31 36 66 62 35 36 36   a45720fca16fb566
+
+No.     Time           Source                Destination           Protocol Length Info
+  13760 31523.837154   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0010 (Unknown)
+
+Frame 13760: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13761 31523.837605   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      13     Rcvd Handle Value Indication, Handle: 0x0010 (Unknown)
+
+Frame 13761: 13 bytes on wire (104 bits), 13 bytes captured (104 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 08 00 04 00 04 00 1d 10 00 01            .."..........
+
+No.     Time           Source                Destination           Protocol Length Info
+  13762 31523.838217   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      10     Sent Handle Value Confirmation, Handle: 0x0010 (Unknown)
+
+Frame 13762: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 05 00 01 00 04 00 1e                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+  13764 31523.893164   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0014 (Unknown)
+
+Frame 13764: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 09 00 05 00 04 00 12 14 00 01 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+  13766 31523.916934   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0014 (Unknown)
+
+Frame 13766: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13767 31523.957542   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13767: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 34 e9 68 e9   ..".........4.h.
+0010  b8 e9 e4 ea e8 ea 90 e9 90 e8 2c e9 8c ea 28 ec   ..........,...(.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13768 31523.982780   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x001f (Unknown)
+
+Frame 13768: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 07 00 03 00 04 00 0a 1f 00               ............
+
+No.     Time           Source                Destination           Protocol Length Info
+  13770 31523.997489   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13770: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 f0 ea 08 eb   ..".............
+0010  e4 e9 98 e8 b0 e7 30 e8 30 e9 30 ea 6c ea 30 ea   ......0.0.0.l.0.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13771 31524.016859   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      23     Rcvd Read Response, Handle: 0x001f (Unknown)
+
+Frame 13771: 23 bytes on wire (184 bits), 23 bytes captured (184 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 12 00 0e 00 04 00 0b 32 30 32 33 30 31   ..".......202301
+0010  34 35 30 35 30 37 32                              4505072
+
+No.     Time           Source                Destination           Protocol Length Info
+  13772 31524.017589   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13772: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 60 ea b8 ea   ..".........`...
+0010  24 ea 8c ea a0 ea a4 e9 e4 ea 4c eb 2c eb e0 e9   $.........L.,...
+
+No.     Time           Source                Destination           Protocol Length Info
+  13773 31524.057568   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13773: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 6c e9 a0 ea   ..".........l...
+0010  ec ea ec eb 74 ec a0 eb 68 eb c4 eb 0c ec 84 ec   ....t...h.......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13774 31524.097480   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13774: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 2c ec dc ec   ..".........,...
+0010  20 ed b4 ec e8 ec 6c ec 88 ec f4 eb d8 eb e4 eb    .....l.........
+
+No.     Time           Source                Destination           Protocol Length Info
+  13775 31524.099928   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0023 (Unknown)
+
+Frame 13775: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 07 00 03 00 04 00 0a 23 00               ..........#.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13777 31524.117524   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13777: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 80 ed 88 ed   ..".............
+0010  48 ee 74 ee 00 ef 34 f0 40 f0 88 ef 8c ee 68 ef   H.t...4.@.....h.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13778 31524.137091   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      16     Rcvd Read Response, Handle: 0x0023 (Unknown)
+
+Frame 13778: 16 bytes on wire (128 bits), 16 bytes captured (128 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 0b 00 07 00 04 00 0b 32 2e 31 2e 31 33   ..".......2.1.13
+
+No.     Time           Source                Destination           Protocol Length Info
+  13779 31524.157134   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13779: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 04 f0 a8 ee   ..".............
+0010  e4 ee 34 f0 c4 f1 08 f2 b8 f1 28 f2 08 f3 bc f2   ..4.......(.....
+
+No.     Time           Source                Destination           Protocol Length Info
+  13780 31524.200810   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0021 (Unknown)
+
+Frame 13780: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 07 00 03 00 04 00 0a 21 00               ..........!.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13781 31524.216990   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13781: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 3c f2 e8 f2   ..".........<...
+0010  b0 f4 18 f6 0c f8 74 f9 68 fa 28 fb d8 f9 7c f5   ......t.h.(...|.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13783 31524.218000   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13783: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 0c f0 08 ee   ..".............
+0010  20 ed 00 ec 90 eb b8 eb a4 ed a0 ef f4 f0 20 f2    ............. .
+
+No.     Time           Source                Destination           Protocol Length Info
+  13784 31524.237669   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      19     Rcvd Read Response, Handle: 0x0021 (Unknown)
+
+Frame 13784: 19 bytes on wire (152 bits), 19 bytes captured (152 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 0e 00 0a 00 04 00 0b 31 39 53 43 30 33   ..".......19SC03
+0010  2e 30 33                                          .03
+
+No.     Time           Source                Destination           Protocol Length Info
+  13785 31524.257245   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13785: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 8c f0 24 f0   .."...........$.
+0010  8c f0 b0 f0 80 f2 8c f2 0c f2 cc f2 ec f2 38 f3   ..............8.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13786 31524.297446   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13786: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 6c f3 0c f4   ..".........l...
+0010  40 f5 b4 f5 e0 f6 48 f7 0c f9 54 f7 50 f6 20 f7   @.....H...T.P. .
+
+No.     Time           Source                Destination           Protocol Length Info
+  13787 31524.316993   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13787: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 44 f7 d0 f4   ..".........D...
+0010  bc f4 70 f5 68 f5 0c f6 24 f6 44 f6 78 f5 c0 f4   ..p.h...$.D.x...
+
+No.     Time           Source                Destination           Protocol Length Info
+  13788 31524.319590   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0026 (Unknown)
+
+Frame 13788: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 07 00 03 00 04 00 0a 26 00               ..........&.
+
+No.     Time           Source                Destination           Protocol Length Info
+  13790 31524.356910   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      11     Rcvd Read Response, Handle: 0x0026 (Unknown)
+
+Frame 13790: 11 bytes on wire (88 bits), 11 bytes captured (88 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 06 00 02 00 04 00 0b 58                  ..".......X
+
+No.     Time           Source                Destination           Protocol Length Info
+  13791 31524.357546   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13791: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 40 f5 c4 f4   ..".........@...
+0010  90 f5 90 f6 58 f6 6c f7 10 f8 6c f8 b8 f7 b8 f7   ....X.l...l.....
+
+No.     Time           Source                Destination           Protocol Length Info
+  13792 31524.397543   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13792: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 1c f8 74 f7   .."...........t.
+0010  c0 f7 64 f8 ac f7 e4 f7 f4 f8 30 f9 d8 f7 20 f8   ..d.......0... .
+
+No.     Time           Source                Destination           Protocol Length Info
+  13793 31524.417111   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13793: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 a8 f8 20 fa   .."........... .
+0010  80 fa 3c fb 24 fa 38 f9 6c f9 48 f9 bc f9 cc fa   ..<.$.8.l.H.....
+
+No.     Time           Source                Destination           Protocol Length Info
+  13794 31524.421814   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0027 (Unknown)
+
+Frame 13794: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 02 09 00 05 00 04 00 12 27 00 01 00         ..........'...
+
+No.     Time           Source                Destination           Protocol Length Info
+  13796 31524.456904   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0027 (Unknown)
+
+Frame 13796: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  13797 31524.457612   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 13797: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 9c fa f8 fa   ..".............
+0010  2c fc cc fc 34 fd 80 fc 74 fc 8c fc 80 fd cc fd   ,...4...t.......
+
+No.     Time           Source                Destination           Protocol Length Info
+  15675 31587.059586   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 15675: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 39 61 39 61   ..".........9a9a
+0010  3d 61 41 61 2d 61 2d 61 51 61 3d 61 5d 61 49 61   =aAa-a-aQa=a]aIa
+
+No.     Time           Source                Destination           Protocol Length Info
+  15676 31587.089500   host                  controller            HCI_CMD  7      Sent Disconnect
+
+Frame 15676: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Command - Disconnect
+
+0000  01 06 04 03 00 02 13                              .......
+
+No.     Time           Source                Destination           Protocol Length Info
+  15677 31587.090163   controller            host                  HCI_EVT  7      Rcvd Command Status (Disconnect)
+
+Frame 15677: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Event - Command Status
+
+0000  04 0f 04 00 01 06 04                              .......
+
+No.     Time           Source                Destination           Protocol Length Info
+  15678 31587.099567   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      32     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 15678: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI ACL Packet
+Bluetooth L2CAP Protocol
+Bluetooth Attribute Protocol
+
+0000  02 00 22 1b 00 17 00 04 00 1b 13 00 51 61 21 61   ..".........Qa!a
+0010  4d 61 39 61 45 61 41 61 59 61 49 61 45 61 35 61   Ma9aEaAaYaIaEa5a
+
+No.     Time           Source                Destination           Protocol Length Info
+  15679 31587.099850   controller            host                  HCI_EVT  7      Rcvd Disconnect Complete
+
+Frame 15679: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+Bluetooth
+Bluetooth HCI H4
+Bluetooth HCI Event - Disconnect Complete
+
+0000  04 05 04 00 00 02 16                              .......
