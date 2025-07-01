@@ -1,0 +1,2499 @@
+No.     Time           Source                Destination           Protocol Length Info
+  19626 53215.070775   host                  controller            HCI_CMD  62     Sent LE Extended Create Connection
+
+Frame 19626: 62 bytes on wire (496 bits), 62 bytes captured (496 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.364266000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.364266000 seconds
+    [Time delta from previous captured frame: 0.001117000 seconds]
+    [Time delta from previous displayed frame: 0.001117000 seconds]
+    [Time since reference or first frame: 53215.070775000 seconds]
+    Frame Number: 19626
+    Frame Length: 62 bytes (496 bits)
+    Capture Length: 62 bytes (496 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_cmd]
+Bluetooth
+    [Source: host]
+    [Destination: controller]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: HCI Command (0x01)
+Bluetooth HCI Command - LE Extended Create Connection
+    Command Opcode: LE Extended Create Connection (0x2043)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0011 = Opcode Command Field: LE Extended Create Connection (0x043)
+    Parameter Total Length: 58
+    Initiator Filter Policy: Use White List. Ignore Peer Address (0x01)
+    Own Address Type: Random Device Address (0x01)
+    Peer Address Type: Public Device Address (0x00)
+    BD_ADDR: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Initiating PHYs: 0x07, LE Coded, LE 2M, LE 1M
+        0000 0... = Reserved: 0x00
+        .... .1.. = LE Coded: True
+        .... ..1. = LE 2M: True
+        .... ...1 = LE 1M: True
+    Initiating PHY: LE 1M
+        Scan Interval: 48 (30 msec)
+        Scan Window: 48 (30 msec)
+        Connection Interval Min: 24 (30 msec)
+        Connection Interval Max: 40 (50 msec)
+        Max Connection Latency: 0 (number events)
+        Supervision Timeout: 500 (5 sec)
+        Min CE Length: 0 (0 msec)
+        Max CE Length: 0 (0 msec)
+    Initiating PHY: LE 2M
+        Scan Interval: 48 (30 msec)
+        Scan Window: 48 (30 msec)
+        Connection Interval Min: 24 (30 msec)
+        Connection Interval Max: 40 (50 msec)
+        Max Connection Latency: 0 (number events)
+        Supervision Timeout: 500 (5 sec)
+        Min CE Length: 0 (0 msec)
+        Max CE Length: 0 (0 msec)
+    Initiating PHY: LE Coded
+        Scan Interval: 48 (30 msec)
+        Scan Window: 48 (30 msec)
+        Connection Interval Min: 24 (30 msec)
+        Connection Interval Max: 40 (50 msec)
+        Max Connection Latency: 0 (number events)
+        Supervision Timeout: 500 (5 sec)
+        Min CE Length: 0 (0 msec)
+        Max CE Length: 0 (0 msec)
+    [Pending in frame: 19627]
+    [Command-Pending Delta: 1.541]
+
+0000  01 43 20 3a 01 01 00 00 00 00 00 00 00 07 30 00   .C :..........0.
+0010  30 00 18 00 28 00 00 00 f4 01 00 00 00 00 30 00   0...(.........0.
+0020  30 00 18 00 28 00 00 00 f4 01 00 00 00 00 30 00   0...(.........0.
+0030  30 00 18 00 28 00 00 00 f4 01 00 00 00 00         0...(.........
+
+No.     Time           Source                Destination           Protocol Length Info
+  19627 53215.072316   controller            host                  HCI_EVT  7      Rcvd Command Status (LE Extended Create Connection)
+
+Frame 19627: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.365807000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.365807000 seconds
+    [Time delta from previous captured frame: 0.001541000 seconds]
+    [Time delta from previous displayed frame: 0.001541000 seconds]
+    [Time since reference or first frame: 53215.072316000 seconds]
+    Frame Number: 19627
+    Frame Length: 7 bytes (56 bits)
+    Capture Length: 7 bytes (56 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - Command Status
+    Event Code: Command Status (0x0f)
+    Parameter Total Length: 4
+    Status: Pending (0x00)
+    Number of Allowed Command Packets: 1
+    Command Opcode: LE Extended Create Connection (0x2043)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0100 0011 = Opcode Command Field: LE Extended Create Connection (0x043)
+    [Command in frame: 19626]
+    [Command-Pending Delta: 1.541]
+
+0000  04 0f 04 00 01 43 20                              .....C 
+
+No.     Time           Source                Destination           Protocol Length Info
+  19630 53215.269208   remote ()             f8:f3:d3:00:59:08 (Armor 24) ATT      12     Rcvd Exchange MTU Request, Client Rx MTU: 247
+
+Frame 19630: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.562699000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.562699000 seconds
+    [Time delta from previous captured frame: 0.195995000 seconds]
+    [Time delta from previous displayed frame: 0.195995000 seconds]
+    [Time since reference or first frame: 53215.269208000 seconds]
+    Frame Number: 19630
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+Bluetooth
+    [Source: 00:00:00_00:00:00 (00:00:00:00:00:00)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Expert Info (Error/Protocol): Frame is out of any "connection handle" session]
+        [Frame is out of any "connection handle" session]
+        [Severity level: Error]
+        [Group: Protocol]
+    [Source BD_ADDR: 00:00:00_00:00:00 (00:00:00:00:00:00)]
+    [Source Device Name: ]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Exchange MTU Request (0x02)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 0010 = Method: Exchange MTU Request (0x02)
+    Client Rx MTU: 247
+
+0000  02 00 22 07 00 03 00 04 00 02 f7 00               ..".........
+
+No.     Time           Source                Destination           Protocol Length Info
+  19631 53215.273292   controller            host                  HCI_EVT  34     Rcvd LE Meta (LE Enhanced Connection Complete)
+
+Frame 19631: 34 bytes on wire (272 bits), 34 bytes captured (272 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.566783000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.566783000 seconds
+    [Time delta from previous captured frame: 0.004084000 seconds]
+    [Time delta from previous displayed frame: 0.004084000 seconds]
+    [Time since reference or first frame: 53215.273292000 seconds]
+    Frame Number: 19631
+    Frame Length: 34 bytes (272 bits)
+    Capture Length: 34 bytes (272 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - LE Meta
+    Event Code: LE Meta (0x3e)
+    Parameter Total Length: 31
+    Sub Event: LE Enhanced Connection Complete (0x0a)
+    Status: Success (0x00)
+    Connection Handle: 0x0200
+    Role: Currently the Master for specified BD_ADDR (0x00)
+    Peer Address Type: Random Device Address (0x01)
+    BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)
+    Local Resolvable Private Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Peer Resolvable Private Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Connection Interval: 39 (48.75 msec)
+    Connection Latency: 0 (number events)
+    Supervision Timeout: 500 (5 sec)
+    Master Clock Accuracy: 251-500 ppm (0x00)
+
+0000  04 3e 1f 0a 00 00 02 00 01 8c 8e 92 58 18 ee 00   .>..........X...
+0010  00 00 00 00 00 00 00 00 00 00 00 27 00 00 00 f4   ...........'....
+0020  01 00                                             ..
+
+No.     Time           Source                Destination           Protocol Length Info
+  19646 53215.317812   controller            host                  HCI_EVT  14     Rcvd LE Meta (LE Data Length Change)
+
+Frame 19646: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.611303000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.611303000 seconds
+    [Time delta from previous captured frame: 0.033345000 seconds]
+    [Time delta from previous displayed frame: 0.033345000 seconds]
+    [Time since reference or first frame: 53215.317812000 seconds]
+    Frame Number: 19646
+    Frame Length: 14 bytes (112 bits)
+    Capture Length: 14 bytes (112 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - LE Meta
+    Event Code: LE Meta (0x3e)
+    Parameter Total Length: 11
+    Sub Event: LE Data Length Change (0x07)
+    Connection Handle: 0x0200
+    Max TX Octets: 27
+    Max TX Time: 328µs
+    Max RX Octets: 251
+    Max RX Time: 2120µs
+
+0000  04 3e 0b 07 00 02 1b 00 48 01 fb 00 48 08         .>......H...H.
+
+No.     Time           Source                Destination           Protocol Length Info
+  19647 53215.367504   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) SMP      11     Rcvd Security Request: AuthReq: Bonding
+
+Frame 19647: 11 bytes on wire (88 bits), 11 bytes captured (88 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.660995000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.660995000 seconds
+    [Time delta from previous captured frame: 0.049692000 seconds]
+    [Time delta from previous displayed frame: 0.049692000 seconds]
+    [Time since reference or first frame: 53215.367504000 seconds]
+    Frame Number: 19647
+    Frame Length: 11 bytes (88 bits)
+    Capture Length: 11 bytes (88 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btsmp]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 6
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 2
+    CID: Security Manager Protocol (0x0006)
+Bluetooth Security Manager Protocol
+    Opcode: Security Request (0x0b)
+    AuthReq: 0x01, Bonding Flags: Bonding
+        000. .... = Reserved: 0x0
+        ...0 .... = Keypress Flag: False
+        .... 0... = Secure Connection Flag: False
+        .... .0.. = MITM Flag: False
+        .... ..01 = Bonding Flags: Bonding (0x1)
+
+0000  02 00 22 06 00 02 00 06 00 0b 01                  .."........
+
+No.     Time           Source                Destination           Protocol Length Info
+  19648 53215.371163   host                  controller            HCI_CMD  32     Sent LE Start Encryption
+
+Frame 19648: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.664654000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.664654000 seconds
+    [Time delta from previous captured frame: 0.003659000 seconds]
+    [Time delta from previous displayed frame: 0.003659000 seconds]
+    [Time since reference or first frame: 53215.371163000 seconds]
+    Frame Number: 19648
+    Frame Length: 32 bytes (256 bits)
+    Capture Length: 32 bytes (256 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_cmd]
+Bluetooth
+    [Source: host]
+    [Destination: controller]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: HCI Command (0x01)
+Bluetooth HCI Command - LE Start Encryption
+    Command Opcode: LE Start Encryption (0x2019)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0001 1001 = Opcode Command Field: LE Start Encryption (0x019)
+    Parameter Total Length: 28
+    Connection Handle: 0x0200
+    Random Number: 82015812627c2524
+    Encrypted Diversifier: 0x502b
+    Long Term Key: bf21337fd0f97545b9f1730853f26f5c
+    [Pending in frame: 19649]
+    [Command-Pending Delta: 1.875]
+    [Response in frame: 19662]
+    [Command-Response Delta: 531.995]
+
+0000  01 19 20 1c 00 02 82 01 58 12 62 7c 25 24 2b 50   .. .....X.b|%$+P
+0010  bf 21 33 7f d0 f9 75 45 b9 f1 73 08 53 f2 6f 5c   .!3...uE..s.S.o\
+
+No.     Time           Source                Destination           Protocol Length Info
+  19649 53215.373038   controller            host                  HCI_EVT  7      Rcvd Command Status (LE Start Encryption)
+
+Frame 19649: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.666529000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.666529000 seconds
+    [Time delta from previous captured frame: 0.001875000 seconds]
+    [Time delta from previous displayed frame: 0.001875000 seconds]
+    [Time since reference or first frame: 53215.373038000 seconds]
+    Frame Number: 19649
+    Frame Length: 7 bytes (56 bits)
+    Capture Length: 7 bytes (56 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - Command Status
+    Event Code: Command Status (0x0f)
+    Parameter Total Length: 4
+    Status: Pending (0x00)
+    Number of Allowed Command Packets: 1
+    Command Opcode: LE Start Encryption (0x2019)
+        0010 00.. .... .... = Opcode Group Field: LE Controller Commands (0x08)
+        .... ..00 0001 1001 = Opcode Command Field: LE Start Encryption (0x019)
+    [Command in frame: 19648]
+    [Response in frame: 19662]
+    [Command-Pending Delta: 1.875]
+    [Pending-Response Delta: 530.12]
+
+0000  04 0f 04 00 01 19 20                              ...... 
+
+No.     Time           Source                Destination           Protocol Length Info
+  19650 53215.377689   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Exchange MTU Response, Server Rx MTU: 517
+
+Frame 19650: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.671180000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.671180000 seconds
+    [Time delta from previous captured frame: 0.004651000 seconds]
+    [Time delta from previous displayed frame: 0.004651000 seconds]
+    [Time since reference or first frame: 53215.377689000 seconds]
+    Frame Number: 19650
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Exchange MTU Response (0x03)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 0011 = Method: Exchange MTU Response (0x03)
+    Server Rx MTU: 517
+    [Request in Frame: 19630]
+
+0000  02 00 02 07 00 03 00 04 00 03 05 02               ............
+
+No.     Time           Source                Destination           Protocol Length Info
+  19654 53215.429008   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0026 (Unknown)
+
+Frame 19654: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.722499000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.722499000 seconds
+    [Time delta from previous captured frame: 0.011942000 seconds]
+    [Time delta from previous displayed frame: 0.011942000 seconds]
+    [Time since reference or first frame: 53215.429008000 seconds]
+    Frame Number: 19654
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Request (0x0a)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1010 = Method: Read Request (0x0a)
+    Handle: 0x0026 (Unknown)
+
+0000  02 00 02 07 00 03 00 04 00 0a 26 00               ..........&.
+
+No.     Time           Source                Destination           Protocol Length Info
+  19655 53215.464077   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) L2CAP    21     Rcvd Connection Parameter Update Request
+
+Frame 19655: 21 bytes on wire (168 bits), 21 bytes captured (168 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.757568000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.757568000 seconds
+    [Time delta from previous captured frame: 0.035069000 seconds]
+    [Time delta from previous displayed frame: 0.035069000 seconds]
+    [Time since reference or first frame: 53215.464077000 seconds]
+    Frame Number: 19655
+    Frame Length: 21 bytes (168 bits)
+    Capture Length: 21 bytes (168 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 16
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 12
+    CID: Low Energy L2CAP Signaling Channel (0x0005)
+    Command: Connection Parameter Update Request
+        Command Code: Connection Parameter Update Request (0x12)
+        Command Identifier: 0x03
+        Command Length: 8
+        Min. Interval: 6 (7.5 msec)
+        Max. Interval: 24 (30 msec)
+        Slave Latency: 0 LL Connection Events
+        Timeout Multiplier: 400 (4 sec)
+
+0000  02 00 22 10 00 0c 00 05 00 12 03 08 00 06 00 18   ..".............
+0010  00 00 00 90 01                                    .....
+
+No.     Time           Source                Destination           Protocol Length Info
+  19656 53215.467251   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) L2CAP    15     Sent Connection Parameter Update Response (Accepted)
+
+Frame 19656: 15 bytes on wire (120 bits), 15 bytes captured (120 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:07.760742000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398267.760742000 seconds
+    [Time delta from previous captured frame: 0.003174000 seconds]
+    [Time delta from previous displayed frame: 0.003174000 seconds]
+    [Time since reference or first frame: 53215.467251000 seconds]
+    Frame Number: 19656
+    Frame Length: 15 bytes (120 bits)
+    Capture Length: 15 bytes (120 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 10
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 6
+    CID: Low Energy L2CAP Signaling Channel (0x0005)
+    Command: Connection Parameter Update Response
+        Command Code: Connection Parameter Update Response (0x13)
+        Command Identifier: 0x03
+        Command Length: 2
+        Move Result: Accepted (0x0000)
+
+0000  02 00 02 0a 00 06 00 05 00 13 03 02 00 00 00      ...............
+
+No.     Time           Source                Destination           Protocol Length Info
+  19662 53215.903158   controller            host                  HCI_EVT  7      Rcvd Encryption Change
+
+Frame 19662: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.196649000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.196649000 seconds
+    [Time delta from previous captured frame: 0.341337000 seconds]
+    [Time delta from previous displayed frame: 0.341337000 seconds]
+    [Time since reference or first frame: 53215.903158000 seconds]
+    Frame Number: 19662
+    Frame Length: 7 bytes (56 bits)
+    Capture Length: 7 bytes (56 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - Encryption Change
+    Event Code: Encryption Change (0x08)
+    Parameter Total Length: 4
+    Status: Success (0x00)
+    Connection Handle: 0x0200
+    Encryption Enable: Link Level Encryption is ON (0x01)
+    [Command in frame: 19648]
+    [Pending in frame: 19649]
+    [Pending-Response Delta: 530.12]
+    [Command-Response Delta: 531.995]
+
+0000  04 08 04 00 00 02 01                              .......
+
+No.     Time           Source                Destination           Protocol Length Info
+  19666 53216.098420   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      11     Rcvd Read Response, Handle: 0x0026 (Unknown)
+
+Frame 19666: 11 bytes on wire (88 bits), 11 bytes captured (88 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.391911000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.391911000 seconds
+    [Time delta from previous captured frame: 0.000285000 seconds]
+    [Time delta from previous displayed frame: 0.000285000 seconds]
+    [Time since reference or first frame: 53216.098420000 seconds]
+    Frame Number: 19666
+    Frame Length: 11 bytes (88 bits)
+    Capture Length: 11 bytes (88 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 6
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 2
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Response (0x0b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1011 = Method: Read Response (0x0b)
+    [Handle: 0x0026 (Unknown)]
+    Value: 57
+    [Request in Frame: 19654]
+
+0000  02 00 22 06 00 02 00 04 00 0b 57                  ..".......W
+
+No.     Time           Source                Destination           Protocol Length Info
+  19667 53216.099184   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      16     Sent Read By Type Request, Server Supported Features, Handles: 0x0001..0xffff
+
+Frame 19667: 16 bytes on wire (128 bits), 16 bytes captured (128 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.392675000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.392675000 seconds
+    [Time delta from previous captured frame: 0.000764000 seconds]
+    [Time delta from previous displayed frame: 0.000764000 seconds]
+    [Time since reference or first frame: 53216.099184000 seconds]
+    Frame Number: 19667
+    Frame Length: 16 bytes (128 bits)
+    Capture Length: 16 bytes (128 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 11
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 7
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read By Type Request (0x08)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1000 = Method: Read By Type Request (0x08)
+    Starting Handle: 0x0001
+    Ending Handle: 0xffff
+    UUID: Server Supported Features (0x2b3a)
+
+0000  02 00 02 0b 00 07 00 04 00 08 01 00 ff ff 3a 2b   ..............:+
+
+No.     Time           Source                Destination           Protocol Length Info
+  19669 53216.195831   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      14     Rcvd Error Response - Attribute Not Found, Handle: 0x0001 (Unknown)
+
+Frame 19669: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.489322000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.489322000 seconds
+    [Time delta from previous captured frame: 0.048833000 seconds]
+    [Time delta from previous displayed frame: 0.048833000 seconds]
+    [Time since reference or first frame: 53216.195831000 seconds]
+    Frame Number: 19669
+    Frame Length: 14 bytes (112 bits)
+    Capture Length: 14 bytes (112 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 9
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 5
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Error Response (0x01)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 0001 = Method: Error Response (0x01)
+    Request Opcode in Error: Read By Type Request (0x08)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1000 = Method: Read By Type Request (0x08)
+    Handle in Error: 0x0001 (Unknown)
+    Error Code: Attribute Not Found (0x0a)
+    [UUID: Server Supported Features (0x2b3a)]
+
+0000  02 00 22 09 00 05 00 04 00 01 08 01 00 0a         .."...........
+
+No.     Time           Source                Destination           Protocol Length Info
+  19670 53216.196845   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0027 (Unknown)
+
+Frame 19670: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.490336000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.490336000 seconds
+    [Time delta from previous captured frame: 0.001014000 seconds]
+    [Time delta from previous displayed frame: 0.001014000 seconds]
+    [Time since reference or first frame: 53216.196845000 seconds]
+    Frame Number: 19670
+    Frame Length: 14 bytes (112 bits)
+    Capture Length: 14 bytes (112 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 9
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 5
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Request (0x12)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0010 = Method: Write Request (0x12)
+    Handle: 0x0027 (Unknown)
+    Value: 0100
+
+0000  02 00 02 09 00 05 00 04 00 12 27 00 01 00         ..........'...
+
+No.     Time           Source                Destination           Protocol Length Info
+  19673 53216.270232   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0027 (Unknown)
+
+Frame 19673: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.563723000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.563723000 seconds
+    [Time delta from previous captured frame: 0.020369000 seconds]
+    [Time delta from previous displayed frame: 0.020369000 seconds]
+    [Time since reference or first frame: 53216.270232000 seconds]
+    Frame Number: 19673
+    Frame Length: 10 bytes (80 bits)
+    Capture Length: 10 bytes (80 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 5
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 1
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Response (0x13)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0011 = Method: Write Response (0x13)
+    [Handle: 0x0027 (Unknown)]
+    [Request in Frame: 19670]
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  19674 53216.485775   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0011 (Unknown)
+
+Frame 19674: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.779266000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.779266000 seconds
+    [Time delta from previous captured frame: 0.215543000 seconds]
+    [Time delta from previous displayed frame: 0.215543000 seconds]
+    [Time since reference or first frame: 53216.485775000 seconds]
+    Frame Number: 19674
+    Frame Length: 14 bytes (112 bits)
+    Capture Length: 14 bytes (112 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 9
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 5
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Request (0x12)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0010 = Method: Write Request (0x12)
+    Handle: 0x0011 (Unknown)
+    Value: 0200
+
+0000  02 00 02 09 00 05 00 04 00 12 11 00 02 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+  19676 53216.509034   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0011 (Unknown)
+
+Frame 19676: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.802525000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.802525000 seconds
+    [Time delta from previous captured frame: 0.020164000 seconds]
+    [Time delta from previous displayed frame: 0.020164000 seconds]
+    [Time since reference or first frame: 53216.509034000 seconds]
+    Frame Number: 19676
+    Frame Length: 10 bytes (80 bits)
+    Capture Length: 10 bytes (80 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 5
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 1
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Response (0x13)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0011 = Method: Write Response (0x13)
+    [Handle: 0x0011 (Unknown)]
+    [Request in Frame: 19674]
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  19677 53216.576588   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      32     Sent Write Request, Handle: 0x0010 (Unknown)
+
+Frame 19677: 32 bytes on wire (256 bits), 32 bytes captured (256 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.870079000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.870079000 seconds
+    [Time delta from previous captured frame: 0.067554000 seconds]
+    [Time delta from previous displayed frame: 0.067554000 seconds]
+    [Time since reference or first frame: 53216.576588000 seconds]
+    Frame Number: 19677
+    Frame Length: 32 bytes (256 bits)
+    Capture Length: 32 bytes (256 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 27
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 23
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Request (0x12)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0010 = Method: Write Request (0x12)
+    Handle: 0x0010 (Unknown)
+    Value: 4d32204b61343537323066636131366662353636
+
+0000  02 00 02 1b 00 17 00 04 00 12 10 00 4d 32 20 4b   ............M2 K
+0010  61 34 35 37 32 30 66 63 61 31 36 66 62 35 36 36   a45720fca16fb566
+
+No.     Time           Source                Destination           Protocol Length Info
+  19679 53216.608901   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0010 (Unknown)
+
+Frame 19679: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.902392000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.902392000 seconds
+    [Time delta from previous captured frame: 0.019700000 seconds]
+    [Time delta from previous displayed frame: 0.019700000 seconds]
+    [Time since reference or first frame: 53216.608901000 seconds]
+    Frame Number: 19679
+    Frame Length: 10 bytes (80 bits)
+    Capture Length: 10 bytes (80 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 5
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 1
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Response (0x13)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0011 = Method: Write Response (0x13)
+    [Handle: 0x0010 (Unknown)]
+    [Request in Frame: 19677]
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  19680 53216.609387   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      13     Rcvd Handle Value Indication, Handle: 0x0010 (Unknown)
+
+Frame 19680: 13 bytes on wire (104 bits), 13 bytes captured (104 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.902878000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.902878000 seconds
+    [Time delta from previous captured frame: 0.000486000 seconds]
+    [Time delta from previous displayed frame: 0.000486000 seconds]
+    [Time since reference or first frame: 53216.609387000 seconds]
+    Frame Number: 19680
+    Frame Length: 13 bytes (104 bits)
+    Capture Length: 13 bytes (104 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 8
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 4
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Indication (0x1d)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1101 = Method: Handle Value Indication (0x1d)
+    Handle: 0x0010 (Unknown)
+    Value: 01
+
+0000  02 00 22 08 00 04 00 04 00 1d 10 00 01            .."..........
+
+No.     Time           Source                Destination           Protocol Length Info
+  19681 53216.610365   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      10     Sent Handle Value Confirmation, Handle: 0x0010 (Unknown)
+
+Frame 19681: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.903856000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.903856000 seconds
+    [Time delta from previous captured frame: 0.000978000 seconds]
+    [Time delta from previous displayed frame: 0.000978000 seconds]
+    [Time since reference or first frame: 53216.610365000 seconds]
+    Frame Number: 19681
+    Frame Length: 10 bytes (80 bits)
+    Capture Length: 10 bytes (80 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 5
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 1
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Confirmation (0x1e)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1110 = Method: Handle Value Confirmation (0x1e)
+    [Handle: 0x0010 (Unknown)]
+    [Request in Frame: 19680]
+
+0000  02 00 02 05 00 01 00 04 00 1e                     ..........
+
+No.     Time           Source                Destination           Protocol Length Info
+  19683 53216.669748   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0014 (Unknown)
+
+Frame 19683: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:08.963239000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398268.963239000 seconds
+    [Time delta from previous captured frame: 0.040729000 seconds]
+    [Time delta from previous displayed frame: 0.040729000 seconds]
+    [Time since reference or first frame: 53216.669748000 seconds]
+    Frame Number: 19683
+    Frame Length: 14 bytes (112 bits)
+    Capture Length: 14 bytes (112 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 9
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 5
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Request (0x12)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0010 = Method: Write Request (0x12)
+    Handle: 0x0014 (Unknown)
+    Value: 0100
+
+0000  02 00 02 09 00 05 00 04 00 12 14 00 01 00         ..............
+
+No.     Time           Source                Destination           Protocol Length Info
+  19685 53216.709708   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0014 (Unknown)
+
+Frame 19685: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.003199000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.003199000 seconds
+    [Time delta from previous captured frame: 0.020406000 seconds]
+    [Time delta from previous displayed frame: 0.020406000 seconds]
+    [Time since reference or first frame: 53216.709708000 seconds]
+    Frame Number: 19685
+    Frame Length: 10 bytes (80 bits)
+    Capture Length: 10 bytes (80 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 5
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 1
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Response (0x13)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0011 = Method: Write Response (0x13)
+    [Handle: 0x0014 (Unknown)]
+    [Request in Frame: 19683]
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  19687 53216.767990   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x001f (Unknown)
+
+Frame 19687: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.061481000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.061481000 seconds
+    [Time delta from previous captured frame: 0.017890000 seconds]
+    [Time delta from previous displayed frame: 0.017890000 seconds]
+    [Time since reference or first frame: 53216.767990000 seconds]
+    Frame Number: 19687
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Request (0x0a)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1010 = Method: Read Request (0x0a)
+    Handle: 0x001f (Unknown)
+
+0000  02 00 02 07 00 03 00 04 00 0a 1f 00               ............
+
+No.     Time           Source                Destination           Protocol Length Info
+  19690 53216.809658   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      23     Rcvd Read Response, Handle: 0x001f (Unknown)
+
+Frame 19690: 23 bytes on wire (184 bits), 23 bytes captured (184 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.103149000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.103149000 seconds
+    [Time delta from previous captured frame: 0.020355000 seconds]
+    [Time delta from previous displayed frame: 0.020355000 seconds]
+    [Time since reference or first frame: 53216.809658000 seconds]
+    Frame Number: 19690
+    Frame Length: 23 bytes (184 bits)
+    Capture Length: 23 bytes (184 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 18
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 14
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Response (0x0b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1011 = Method: Read Response (0x0b)
+    [Handle: 0x001f (Unknown)]
+    Value: 32303233303134353035303732
+    [Request in Frame: 19687]
+
+0000  02 00 22 12 00 0e 00 04 00 0b 32 30 32 33 30 31   ..".......202301
+0010  34 35 30 35 30 37 32                              4505072
+
+No.     Time           Source                Destination           Protocol Length Info
+  19693 53216.867491   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0023 (Unknown)
+
+Frame 19693: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.160982000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.160982000 seconds
+    [Time delta from previous captured frame: 0.037122000 seconds]
+    [Time delta from previous displayed frame: 0.037122000 seconds]
+    [Time since reference or first frame: 53216.867491000 seconds]
+    Frame Number: 19693
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Request (0x0a)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1010 = Method: Read Request (0x0a)
+    Handle: 0x0023 (Unknown)
+
+0000  02 00 02 07 00 03 00 04 00 0a 23 00               ..........#.
+
+No.     Time           Source                Destination           Protocol Length Info
+  19697 53216.909991   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      16     Rcvd Read Response, Handle: 0x0023 (Unknown)
+
+Frame 19697: 16 bytes on wire (128 bits), 16 bytes captured (128 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.203482000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.203482000 seconds
+    [Time delta from previous captured frame: 0.019449000 seconds]
+    [Time delta from previous displayed frame: 0.019449000 seconds]
+    [Time since reference or first frame: 53216.909991000 seconds]
+    Frame Number: 19697
+    Frame Length: 16 bytes (128 bits)
+    Capture Length: 16 bytes (128 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 11
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 7
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Response (0x0b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1011 = Method: Read Response (0x0b)
+    [Handle: 0x0023 (Unknown)]
+    Value: 322e312e3133
+    [Request in Frame: 19693]
+
+0000  02 00 22 0b 00 07 00 04 00 0b 32 2e 31 2e 31 33   ..".......2.1.13
+
+No.     Time           Source                Destination           Protocol Length Info
+  19700 53216.968956   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0021 (Unknown)
+
+Frame 19700: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.262447000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.262447000 seconds
+    [Time delta from previous captured frame: 0.018672000 seconds]
+    [Time delta from previous displayed frame: 0.018672000 seconds]
+    [Time since reference or first frame: 53216.968956000 seconds]
+    Frame Number: 19700
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Request (0x0a)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1010 = Method: Read Request (0x0a)
+    Handle: 0x0021 (Unknown)
+
+0000  02 00 02 07 00 03 00 04 00 0a 21 00               ..........!.
+
+No.     Time           Source                Destination           Protocol Length Info
+  19703 53217.009384   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      19     Rcvd Read Response, Handle: 0x0021 (Unknown)
+
+Frame 19703: 19 bytes on wire (152 bits), 19 bytes captured (152 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.302875000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.302875000 seconds
+    [Time delta from previous captured frame: 0.019326000 seconds]
+    [Time delta from previous displayed frame: 0.019326000 seconds]
+    [Time since reference or first frame: 53217.009384000 seconds]
+    Frame Number: 19703
+    Frame Length: 19 bytes (152 bits)
+    Capture Length: 19 bytes (152 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 14
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 10
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Response (0x0b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1011 = Method: Read Response (0x0b)
+    [Handle: 0x0021 (Unknown)]
+    Value: 3139534330332e3033
+    [Request in Frame: 19700]
+
+0000  02 00 22 0e 00 0a 00 04 00 0b 31 39 53 43 30 33   ..".......19SC03
+0010  2e 30 33                                          .03
+
+No.     Time           Source                Destination           Protocol Length Info
+  19706 53217.067815   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      12     Sent Read Request, Handle: 0x0026 (Unknown)
+
+Frame 19706: 12 bytes on wire (96 bits), 12 bytes captured (96 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.361306000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.361306000 seconds
+    [Time delta from previous captured frame: 0.017314000 seconds]
+    [Time delta from previous displayed frame: 0.017314000 seconds]
+    [Time since reference or first frame: 53217.067815000 seconds]
+    Frame Number: 19706
+    Frame Length: 12 bytes (96 bits)
+    Capture Length: 12 bytes (96 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 7
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 3
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Request (0x0a)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1010 = Method: Read Request (0x0a)
+    Handle: 0x0026 (Unknown)
+
+0000  02 00 02 07 00 03 00 04 00 0a 26 00               ..........&.
+
+No.     Time           Source                Destination           Protocol Length Info
+  19709 53217.109302   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      11     Rcvd Read Response, Handle: 0x0026 (Unknown)
+
+Frame 19709: 11 bytes on wire (88 bits), 11 bytes captured (88 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.402793000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.402793000 seconds
+    [Time delta from previous captured frame: 0.019743000 seconds]
+    [Time delta from previous displayed frame: 0.019743000 seconds]
+    [Time since reference or first frame: 53217.109302000 seconds]
+    Frame Number: 19709
+    Frame Length: 11 bytes (88 bits)
+    Capture Length: 11 bytes (88 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 6
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 2
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read Response (0x0b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..00 1011 = Method: Read Response (0x0b)
+    [Handle: 0x0026 (Unknown)]
+    Value: 57
+    [Request in Frame: 19706]
+
+0000  02 00 22 06 00 02 00 04 00 0b 57                  ..".......W
+
+No.     Time           Source                Destination           Protocol Length Info
+  19712 53217.169883   f8:f3:d3:00:59:08 (Armor 24) ee:18:58:92:8e:8c (Kardia6L 8E8C) ATT      14     Sent Write Request, Handle: 0x0027 (Unknown)
+
+Frame 19712: 14 bytes on wire (112 bits), 14 bytes captured (112 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.463374000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.463374000 seconds
+    [Time delta from previous captured frame: 0.039753000 seconds]
+    [Time delta from previous displayed frame: 0.039753000 seconds]
+    [Time since reference or first frame: 53217.169883000 seconds]
+    Frame Number: 19712
+    Frame Length: 14 bytes (112 bits)
+    Capture Length: 14 bytes (112 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..00 .... .... .... = PB Flag: First Non-automatically Flushable Packet (0)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 9
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Source Device Name: Armor 24]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination Device Name: Kardia6L 8E8C]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 5
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Request (0x12)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0010 = Method: Write Request (0x12)
+    Handle: 0x0027 (Unknown)
+    Value: 0100
+
+0000  02 00 02 09 00 05 00 04 00 12 27 00 01 00         ..........'...
+
+No.     Time           Source                Destination           Protocol Length Info
+  19716 53217.209450   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      10     Rcvd Write Response, Handle: 0x0027 (Unknown)
+
+Frame 19716: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.502941000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.502941000 seconds
+    [Time delta from previous captured frame: 0.019182000 seconds]
+    [Time delta from previous displayed frame: 0.019182000 seconds]
+    [Time since reference or first frame: 53217.209450000 seconds]
+    Frame Number: 19716
+    Frame Length: 10 bytes (80 bits)
+    Capture Length: 10 bytes (80 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 5
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 1
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Response (0x13)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0011 = Method: Write Response (0x13)
+    [Handle: 0x0027 (Unknown)]
+    [Request in Frame: 19712]
+
+0000  02 00 22 05 00 01 00 04 00 13                     ..".......
+
+No.     Time           Source                Destination           Protocol Length Info
+  19717 53217.229771   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 19717: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.523262000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.523262000 seconds
+    [Time delta from previous captured frame: 0.020321000 seconds]
+    [Time delta from previous displayed frame: 0.020321000 seconds]
+    [Time since reference or first frame: 53217.229771000 seconds]
+    Frame Number: 19717
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: a502b101c5027901710251013d0221010902fd00e101e100e501cd00a5019d0095017500
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 a5 02 b1 01   .."+.'..........
+0010  c5 02 79 01 71 02 51 01 3d 02 21 01 09 02 fd 00   ..y.q.Q.=.!.....
+0020  e1 01 e1 00 e5 01 cd 00 a5 01 9d 00 95 01 75 00   ..............u.
+
+No.     Time           Source                Destination           Protocol Length Info
+  19718 53217.250096   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 19718: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.543587000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.543587000 seconds
+    [Time delta from previous captured frame: 0.020325000 seconds]
+    [Time delta from previous displayed frame: 0.020325000 seconds]
+    [Time since reference or first frame: 53217.250096000 seconds]
+    Frame Number: 19718
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 91018900b9019d00bd019d00b901c100dd01ad009d01a9008101990095019500b5019900
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 91 01 89 00   .."+.'..........
+0010  b9 01 9d 00 bd 01 9d 00 b9 01 c1 00 dd 01 ad 00   ................
+0020  9d 01 a9 00 81 01 99 00 95 01 95 00 b5 01 99 00   ................
+
+No.     Time           Source                Destination           Protocol Length Info
+  19719 53217.290067   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 19719: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:09.583558000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398269.583558000 seconds
+    [Time delta from previous captured frame: 0.039971000 seconds]
+    [Time delta from previous displayed frame: 0.039971000 seconds]
+    [Time since reference or first frame: 53217.290067000 seconds]
+    Frame Number: 19719
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: a901b50045012100850061ff390029ff41003dff410051ff85004dff450051ff450049ff
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 a9 01 b5 00   .."+.'..........
+0010  45 01 21 00 85 00 61 ff 39 00 29 ff 41 00 3d ff   E.!...a.9.).A.=.
+0020  41 00 51 ff 85 00 4d ff 45 00 51 ff 45 00 49 ff   A.Q...M.E.Q.E.I.
+
+No.     Time           Source                Destination           Protocol Length Info
+  20557 53242.430674   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 20557: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:34.724165000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398294.724165000 seconds
+    [Time delta from previous captured frame: 0.040331000 seconds]
+    [Time delta from previous displayed frame: 0.040331000 seconds]
+    [Time since reference or first frame: 53242.430674000 seconds]
+    Frame Number: 20557
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 08fb9cffccfa18ff70fafcfd8cfaccfd00fc38ff74fee000dcfeec00c4fe8cfff4feb0fe
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 08 fb 9c ff   .."+.'..........
+0010  cc fa 18 ff 70 fa fc fd 8c fa cc fd 00 fc 38 ff   ....p.........8.
+0020  74 fe e0 00 dc fe ec 00 c4 fe 8c ff f4 fe b0 fe   t...............
+
+No.     Time           Source                Destination           Protocol Length Info
+  20614 53244.130416   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 20614: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:36.423907000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398296.423907000 seconds
+    [Time delta from previous captured frame: 0.019652000 seconds]
+    [Time delta from previous displayed frame: 0.019652000 seconds]
+    [Time since reference or first frame: 53244.130416000 seconds]
+    Frame Number: 20614
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 6c056c013406e001f406700230087c02080a5003880bc403700b0003000a240270067801
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 6c 05 6c 01   .."+.'......l.l.
+0010  34 06 e0 01 f4 06 70 02 30 08 7c 02 08 0a 50 03   4.....p.0.|...P.
+0020  88 0b c4 03 70 0b 00 03 00 0a 24 02 70 06 78 01   ....p.....$.p.x.
+
+No.     Time           Source                Destination           Protocol Length Info
+  21361 53266.371160   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 21361: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:31:58.664651000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398318.664651000 seconds
+    [Time delta from previous captured frame: 0.040305000 seconds]
+    [Time delta from previous displayed frame: 0.040305000 seconds]
+    [Time since reference or first frame: 53266.371160000 seconds]
+    Frame Number: 21361
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 740824034c096803cc0a2004100c0004480b7c03e4077802a8016c00bcfc50fe80fa44fd
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 74 08 24 03   .."+.'......t.$.
+0010  4c 09 68 03 cc 0a 20 04 10 0c 00 04 48 0b 7c 03   L.h... .....H.|.
+0020  e4 07 78 02 a8 01 6c 00 bc fc 50 fe 80 fa 44 fd   ..x...l...P...D.
+
+No.     Time           Source                Destination           Protocol Length Info
+  21884 53282.050593   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 21884: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:32:14.344084000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398334.344084000 seconds
+    [Time delta from previous captured frame: 0.019914000 seconds]
+    [Time delta from previous displayed frame: 0.019914000 seconds]
+    [Time since reference or first frame: 53282.050593000 seconds]
+    Frame Number: 21884
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 89617d6185617961796169618d617d6185617d6189617d61616165618d617d617d616d61
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 89 61 7d 61   .."+.'.......a}a
+0010  85 61 79 61 79 61 69 61 8d 61 7d 61 85 61 7d 61   .ayayaia.a}a.a}a
+0020  89 61 7d 61 61 61 65 61 8d 61 7d 61 7d 61 6d 61   .a}aaaea.a}a}ama
+
+No.     Time           Source                Destination           Protocol Length Info
+  21885 53282.090921   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 21885: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:32:14.384412000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398334.384412000 seconds
+    [Time delta from previous captured frame: 0.040328000 seconds]
+    [Time delta from previous displayed frame: 0.040328000 seconds]
+    [Time since reference or first frame: 53282.090921000 seconds]
+    Frame Number: 21885
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 756181618961856191616d61a9617161816161615961756189615d617961656161616561
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 75 61 81 61   .."+.'......ua.a
+0010  89 61 85 61 91 61 6d 61 a9 61 71 61 81 61 61 61   .a.a.ama.aqa.aaa
+0020  59 61 75 61 89 61 5d 61 79 61 65 61 61 61 65 61   Yaua.a]ayaeaaaea
+
+No.     Time           Source                Destination           Protocol Length Info
+  21886 53282.110337   ee:18:58:92:8e:8c (Kardia6L 8E8C) f8:f3:d3:00:59:08 (Armor 24) ATT      48     Rcvd Handle Value Notification, Handle: 0x0013 (Unknown)
+
+Frame 21886: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:32:14.403828000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398334.403828000 seconds
+    [Time delta from previous captured frame: 0.019416000 seconds]
+    [Time delta from previous displayed frame: 0.019416000 seconds]
+    [Time since reference or first frame: 53282.110337000 seconds]
+    Frame Number: 21886
+    Frame Length: 48 bytes (384 bits)
+    Capture Length: 48 bytes (384 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_acl:btl2cap:btatt]
+    [Coloring Rule Name: New coloring rule]
+    [Coloring Rule String: bluetooth.addr==ee:18:58:92:8e:8c && bluetooth.addr==f8:f3:d3:00:59:08]
+Bluetooth
+    [Source: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Destination: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: ACL Data (0x02)
+Bluetooth HCI ACL Packet
+    .... 0010 0000 0000 = Connection Handle: 0x200
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 43
+    Data
+    [Connect in frame: 19631]
+    [Disconnect in frame: 21890]
+    [Source BD_ADDR: ee:18:58:92:8e:8c (ee:18:58:92:8e:8c)]
+    [Source Device Name: Kardia6L 8E8C]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: f8:f3:d3:00:59:08 (f8:f3:d3:00:59:08)]
+    [Destination Device Name: Armor 24]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 39
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Handle Value Notification (0x1b)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 1011 = Method: Handle Value Notification (0x1b)
+    Handle: 0x0013 (Unknown)
+    Value: 7d6179616d61616171615d6175615d618d6171617561656165615d617d616d6165615d61
+
+0000  02 00 22 2b 00 27 00 04 00 1b 13 00 7d 61 79 61   .."+.'......}aya
+0010  6d 61 61 61 71 61 5d 61 75 61 5d 61 8d 61 71 61   maaaqa]aua]a.aqa
+0020  75 61 65 61 65 61 5d 61 7d 61 6d 61 65 61 5d 61   uaeaea]a}amaea]a
+
+No.     Time           Source                Destination           Protocol Length Info
+  21887 53282.134156   host                  controller            HCI_CMD  7      Sent Disconnect
+
+Frame 21887: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:32:14.427647000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398334.427647000 seconds
+    [Time delta from previous captured frame: 0.023819000 seconds]
+    [Time delta from previous displayed frame: 0.023819000 seconds]
+    [Time since reference or first frame: 53282.134156000 seconds]
+    Frame Number: 21887
+    Frame Length: 7 bytes (56 bits)
+    Capture Length: 7 bytes (56 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Sent (0)
+    [Protocols in frame: bluetooth:hci_h4:bthci_cmd]
+Bluetooth
+    [Source: host]
+    [Destination: controller]
+Bluetooth HCI H4
+    [Direction: Sent (0x00)]
+    HCI Packet Type: HCI Command (0x01)
+Bluetooth HCI Command - Disconnect
+    Command Opcode: Disconnect (0x0406)
+        0000 01.. .... .... = Opcode Group Field: Link Control Commands (0x01)
+        .... ..00 0000 0110 = Opcode Command Field: Disconnect (0x006)
+    Parameter Total Length: 3
+    Connection Handle: 0x0200
+    Reason: Remote User Terminated Connection (0x13)
+    [Pending in frame: 21888]
+    [Command-Pending Delta: 1.833]
+    [Response in frame: 21890]
+    [Command-Response Delta: 17.371]
+
+0000  01 06 04 03 00 02 13                              .......
+
+No.     Time           Source                Destination           Protocol Length Info
+  21888 53282.135989   controller            host                  HCI_EVT  7      Rcvd Command Status (Disconnect)
+
+Frame 21888: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:32:14.429480000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398334.429480000 seconds
+    [Time delta from previous captured frame: 0.001833000 seconds]
+    [Time delta from previous displayed frame: 0.001833000 seconds]
+    [Time since reference or first frame: 53282.135989000 seconds]
+    Frame Number: 21888
+    Frame Length: 7 bytes (56 bits)
+    Capture Length: 7 bytes (56 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - Command Status
+    Event Code: Command Status (0x0f)
+    Parameter Total Length: 4
+    Status: Pending (0x00)
+    Number of Allowed Command Packets: 1
+    Command Opcode: Disconnect (0x0406)
+        0000 01.. .... .... = Opcode Group Field: Link Control Commands (0x01)
+        .... ..00 0000 0110 = Opcode Command Field: Disconnect (0x006)
+    [Command in frame: 21887]
+    [Response in frame: 21890]
+    [Command-Pending Delta: 1.833]
+    [Pending-Response Delta: 15.538]
+
+0000  04 0f 04 00 01 06 04                              .......
+
+No.     Time           Source                Destination           Protocol Length Info
+  21890 53282.151527   controller            host                  HCI_EVT  7      Rcvd Disconnect Complete
+
+Frame 21890: 7 bytes on wire (56 bits), 7 bytes captured (56 bits)
+    Encapsulation type: Bluetooth H4 with linux header (99)
+    Arrival Time: Jul  1, 2025 19:32:14.445018000 UTC
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1751398334.445018000 seconds
+    [Time delta from previous captured frame: 0.000780000 seconds]
+    [Time delta from previous displayed frame: 0.000780000 seconds]
+    [Time since reference or first frame: 53282.151527000 seconds]
+    Frame Number: 21890
+    Frame Length: 7 bytes (56 bits)
+    Capture Length: 7 bytes (56 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    Point-to-Point Direction: Received (1)
+    [Protocols in frame: bluetooth:hci_h4:bthci_evt]
+Bluetooth
+    [Source: controller]
+    [Destination: host]
+Bluetooth HCI H4
+    [Direction: Rcvd (0x01)]
+    HCI Packet Type: HCI Event (0x04)
+Bluetooth HCI Event - Disconnect Complete
+    Event Code: Disconnect Complete (0x05)
+    Parameter Total Length: 4
+    Status: Success (0x00)
+    Connection Handle: 0x0200
+    Reason: Connection Terminated by Local Host (0x16)
+    [Command in frame: 21887]
+    [Pending in frame: 21888]
+    [Pending-Response Delta: 15.538]
+    [Command-Response Delta: 17.371]
+
+0000  04 05 04 00 00 02 16                              .......
